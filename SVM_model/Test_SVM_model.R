@@ -62,11 +62,10 @@ rownames(results) <- 'External'
 colnames(results) <- c('Accuracy', 'BalAccuracy', 'Sensitivity', 'Specificity', 'MCC',"AUC")
 
 
-
-
 prediction_df=cbind( as.data.frame(predictFinal),real_activity)
+
 colnames(prediction_df) = c( 'Predicted activity','Real activity')
-write.csv(prediction_df, "test_set_predicted_molecules_SVM.csv")
+write.csv(prediction_df, "test_set_predicted_molecules_SVM2.csv")
 
 
 # Save the results to a CSV file
