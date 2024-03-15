@@ -63,4 +63,4 @@ The script generates a second CSV file containing class predictions of the test 
 
 Suppor
 -
-For any questions or issues, feel free to open an issue in the repository or contact bagdad.youcef.ybg@gmail.com.
+For any questions or issues, feel free to contact <maria.mitev@inserm.fr> or <bagdad.youcef.ybg@gmail.com>
