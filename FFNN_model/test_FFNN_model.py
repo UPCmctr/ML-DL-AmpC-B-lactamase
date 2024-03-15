@@ -66,7 +66,7 @@ predictions_df = pd.DataFrame({
     "True Class": ytest
 })
 
-# Save csv file
+# Save CSV file  
 predictions_df.to_csv("test_set_predicted_molecules_FFNN.csv", index=False)
 
 
