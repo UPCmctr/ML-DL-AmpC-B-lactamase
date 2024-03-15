@@ -6,7 +6,7 @@ library(ROCR)
 
 set.seed(123) # Ensure reproducibility
 
-
+# SVM needs the test set to contain only the descriptors used in the model to be able to make predictions
 important_12_descriptors = c('vsa_hyd',	'E_ang'	,'vsurf_D5',	'logP.o.w.',	'PEOE_VSA.0.1',	'vsurf_CW1',	'BCUT_PEOE_0',	'SlogP_VSA1',	'VAdjEq',	'GCUT_SLOGP_3',	'VAdjMa',	'SlogP')
 
 
